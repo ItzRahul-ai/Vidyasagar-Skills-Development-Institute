@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vidyasagar Skills Development Institute</title>
+
+    <!-- telwind link -->
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body>
+    <!-- nav section -->
+    <nav class="flex justify-center items-center px-4 py-5 w-full sticky top-0">
+        <!-- branding section -->
+         <div class="flex items-center justify-start gap-2 md:w-1/2 w-3/4 text-left">
+            <h1 class="font-bold text-2xl pr-2 py-1 bg-linear-to-r from-indigo-600 to-indigo-300">Vidyasagar</h1>
+            <span class="text-gray-500 text-sm font-bold"> Skills Development Institute</span>
+         </div>
+         <!-- nav links section -->
+          <div class="w-1/2 hidden md:flex justify-between items-center">
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="home">Home</a>
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="about">About</a>
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="courses">Courses</a>
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="faculty">Faculty</a>
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="contect">Contact</a>
+
+            <button type="submit" class="pr-8 pl-5 py-3 hover:bg-indigo-400 transition-all duration-500 cursor-pointer bg-indigo-600 rounded-full text-xl text-white">Enroll Now</button>
+          </div>
+
+           <div class="flex items-center lg:hidden justify-end absolute right-5 top-5">
+                <button id="menu-btn" class="cursor-pointer text-black hover:text-indigo-600 focus:outline-none transition-all duration-700">
+                    <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </div>
+    </nav>
+
+<!-- lnk javascript -->
+ <script src="script.js"></script>
+</body>
+</html>

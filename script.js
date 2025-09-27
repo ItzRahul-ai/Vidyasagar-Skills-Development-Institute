@@ -17,7 +17,7 @@ hambarger.addEventListener('click', () => {
 // mobile menu
 const mobileMenu = document.createElement("div");
 mobileMenu.id = "mobile-menu";
-mobileMenu.classList = "lg:hidden max-h-0 rounded-xl min-w-[200px] opacity-0 right-0 top-10 absolute overflow-hidden transition-all duration-700";
+mobileMenu.classList = "lg:hidden max-h-0 rounded-xl min-w-[500px] bg-[rgb(0,0,0,0.9)] pt-10 opacity-0 -right-5 top-15 absolute overflow-hidden transition-all duration-700";
 mobileMenu.innerHTML = `
    <div class="flex flex-col justify-between gap-3 items-center">
 

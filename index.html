@@ -1,44 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vidyasagar Skills Development Institute</title>
 
     <!-- telwind link -->
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
 </head>
+
 <body>
     <!-- nav section -->
-    <nav class="flex justify-center items-center px-4 py-5 w-full sticky top-0">
+    <nav class="flex justify-center items-center px-4 py-5 w-full sticky top-0 bg-white z-10">
         <!-- branding section -->
-         <div class="flex items-center justify-start gap-2 md:w-1/2 w-3/4 text-left">
+        <div class="flex items-center justify-start gap-2 md:w-1/2 w-3/4 text-left">
             <h1 class="font-bold text-2xl pr-2 py-1 bg-linear-to-r from-indigo-600 to-indigo-300">Vidyasagar</h1>
             <span class="text-gray-500 text-sm font-bold"> Skills Development Institute</span>
-         </div>
-         <!-- nav links section -->
-          <div class="w-1/2 hidden md:flex justify-between items-center">
+        </div>
+        <!-- nav links section -->
+        <div class="w-1/2 hidden md:flex justify-between items-center">
             <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="home">Home</a>
             <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="about">About</a>
             <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="courses">Courses</a>
             <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="faculty">Faculty</a>
             <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="contect">Contact</a>
 
-            <button type="submit" class="pr-8 pl-5 py-3 hover:bg-indigo-400 transition-all duration-500 cursor-pointer bg-indigo-600 rounded-full text-xl text-white">Enroll Now</button>
-          </div>
+            <button type="submit"
+                class="pr-8 pl-5 py-3 hover:bg-indigo-400 transition-all duration-500 cursor-pointer bg-indigo-600 rounded-full text-xl text-white">Enroll
+                Now</button>
+        </div>
 
-           <div class="flex items-center lg:hidden justify-end absolute right-5 top-5">
-                <button id="menu-btn" class="cursor-pointer text-black hover:text-indigo-600 focus:outline-none transition-all duration-700">
-                    <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h16" />
-                    </svg>
-                </button>
-            </div>
+        <div class="flex items-center lg:hidden justify-end absolute right-5 top-5">
+            <button id="menu-btn"
+                class="cursor-pointer text-black hover:text-indigo-600 focus:outline-none transition-all duration-700">
+                <svg class="h-8 w-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </button>
+        </div>
     </nav>
 
-<!-- lnk javascript -->
- <script src="script.js"></script>
+    <!-- home section -->
+    <section id="home" class="px-0 py-2">
+
+        <!-- top home sction -->
+        <div class="flex min-h-[700px] flex-col md:flex-row bg-black text-white">
+            <!-- child 1/ text section -->
+            <div class="md:w-1/2 flex flex-col justify-center px-4 w-full">
+                <span class="text-sm bg-[#fff5] px-4 py-1 md:w-4/5 lg:w-2/5 w-2/3 rounded-full font-bold mt-5 mb-5 text-gray-300">India's Leading Education Institute</span>
+
+                <h1 class="text-[50px] font-bold w-1/2 mb-5">Unlock Your Potential with Vidyasagar</h1>
+
+                <span class="text-gray-300 text-lg w-2/3 mb-5">Empowering students with industry-relevant skills for a brighter future. Join India's leading
+                    skill development institute.</span>
+
+                <!-- buttons -->
+                <div class="flex lg:w-1/2 w-full justify-between items-center">
+                    <button type="submit" class="px-5 py-4 bg-white rounded-full text-indigo-600 hover:text-white hover:bg-[#fff3] transition-all duration-500 text-lg font-bold">Explore Courses</button>
+                    <button type="submit" class="px-5 py-4 hover:bg-white rounded-full text-white hover:text-indigo-600 bg-[#fff3] transition-all duration-500 text-lg font-bold">Contact Us</button>
+                </div>
+            </div>
+            <!-- child 2/ photo section -->
+            <div></div>
+        </div>
+
+    </section>
+
+    <!-- lnk javascript -->
+    <script src="script.js"></script>
 </body>
+
 </html>

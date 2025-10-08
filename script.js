@@ -21,13 +21,13 @@ mobileMenu.classList = "lg:hidden max-h-0 rounded-xl md:min-w-[1000px] min-w-[50
 mobileMenu.innerHTML = `
    <div class="flex flex-col justify-between gap-3 items-center">
 
-   <button type="submit" class="pr-8 pl-5 py-3 hover:bg-indigo-400 transition-all duration-500 cursor-pointer bg-indigo-600 rounded-full text-xl text-white">Enroll Now</button>
+   <button type="submit" class="pr-8 pl-5 py-3 hover:bg-indigo-400 transition-all ml-10 duration-500 cursor-pointer bg-indigo-600 rounded-full text-xl text-white">Enroll Now</button>
 
-            <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="index.html">Home</a>
-            <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="about.html">About</a>
-            <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="courses">Courses</a>
-            <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="faculty">Faculty</a>
-            <a class="font-bold text-lg active:text-indigo-600 text-gray-500" href="contect">Contact</a>
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500 ml-10" href="index.html">Home</a>
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500 ml-10" href="about.html">About</a>
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500 ml-10" href="courses">Courses</a>
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500 ml-10" href="faculty">Faculty</a>
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500 ml-10" href="contect">Contact</a>
 
           </div>
 `;

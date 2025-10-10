@@ -27,7 +27,7 @@ mobileMenu.innerHTML = `
 
    <button type="submit" class="pr-8 pl-5 py-3 hover:bg-indigo-400 transition-all ml-20 duration-500 cursor-pointer bg-indigo-600 rounded-full text-xl text-white">Enroll Now</button>
 
-            <a class="font-bold text-lg active:text-indigo-600 text-gray-500 ml-20 mb-5" href="index.html">Home</a>
+            <a class="font-bold text-lg active:text-indigo-600 text-gray-500 ml-20 mb-5 mt-5" href="index.html">Home</a>
             <a class="font-bold text-lg active:text-indigo-600 text-gray-500 ml-20 mb-5" href="about.html">About</a>
             <a class="font-bold text-lg active:text-indigo-600 text-gray-500 ml-20 mb-5" href="courses">Courses</a>
             <a class="font-bold text-lg active:text-indigo-600 text-gray-500 ml-20 mb-5" href="faculty">Faculty</a>

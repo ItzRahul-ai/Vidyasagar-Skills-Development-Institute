@@ -6,6 +6,10 @@
 
 // home()
 
+// animation
+  AOS.init();
+
+
 // now add event listener hambarger 
 const hambarger = document.getElementById("menu-btn");
 hambarger.addEventListener('click', () => {
